@@ -1,8 +1,6 @@
 package br.com.crud.dao;
 
 import br.com.crud.model.Pedido;
-
-import java.math.BigDecimal;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -24,8 +22,7 @@ public class PedidoDAO {
             pstmt.setInt(1, pedido.getIdPedido());
             pstmt.setDate(2, new java.sql.Date(pedido.getDataPedido().getTime()));
             pstmt.setInt(3, pedido.getDiariasPedido());
-            BigDecimal valorTotal = pedido.getValorPedido().multiply(BigDecimal.valueOf(pedido.getDiariasPedido()));
-            pstmt.setBigDecimal(4, valorTotal);
+            pstmt.setBigDecimal(4, pedido.getValorPedido());
             pstmt.setInt(5, pedido.getFk_pacote_idPacote());
             pstmt.setString(6, pedido.getFk_cliente_cpf());
             pstmt.executeUpdate();
