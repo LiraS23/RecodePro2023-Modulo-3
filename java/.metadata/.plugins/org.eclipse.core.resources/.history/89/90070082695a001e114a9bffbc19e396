@@ -320,7 +320,7 @@ public class Terminal {
         System.out.println("Informe a quantidade de diárias do pedido:");
         pedido.setDiariasPedido(scanner.nextInt());
         scanner.nextLine(); // Consumir a quebra de linha
-        System.out.println("Informe o valor da diaria:");
+        System.out.println("Informe o valor do pedido:");
         pedido.setValorPedido(new BigDecimal(scanner.nextLine()));
         System.out.println("Informe o ID do pacote associado ao pedido:");
         pedido.setFk_pacote_idPacote(scanner.nextInt());
