@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        main {
+            background-color: rgb(29, 52, 94);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        #card {
+            height: 215px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="container-fluid p-3">
+        <div class="row mx-auto">
+            <div class="col-1">
+                <a href="homePage.html"><img src="./images/r.png" class="rounded float-start" width="150px"
+                        height="w-100%" alt="HomePage"></a>
+            </div>
+            <div class="col-2">
+            </div>
+            <div class="col my-auto mx-auto">
+                <h2 class="text-center">Viajens.Recode&reg;</h2>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-xxl-1 my-auto">
+                <p class="text-center"><i class="bi bi-telephone-fill"> - 0800 800 1234 </i></p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="container-fluid mr-sm-2 bg-warning">
+        <ul class="nav justify-content-around">
+            <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="destino.html">Destino</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="promocoes.html">Promoções</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="conteiner-fluid p-3 h-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-4 text-warning ps-4 text-center">
+                    <h2>Pensou em viajar?</h2>
+                </div>
+                <div class="col-xl text-center text-warning ps-4">
+                    <h2>Bem-vindo ao Viajens.Recode</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xxl-4 p-3">
+                    <div id="destinosDisponiveis" class="carousel slide carousel-fade col-lg" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div
+                                class="card border border-warning bg-primary text-warning pt-2 ps-2 pe-2 carousel-item active">
+                                <img src="./images/torre-eiffel.jpg" class="card-img-top border border-primary rounded">
+                                <div class="card-body">
+                                    <h5 class="card-title">Paris - França</h5>
+                                    <p class="card-text">Beleza icônica, história fascinante, experiência
+                                        inesquecível.</p>
+                                    <p class="card-text">R$: $.$$$,$$</p>
+                                    <a href="#" class="btn btn-dark">Saiba Mais</a>
+                                </div>
+                            </div>
+                            <div
+                                class="card border border-warning bg-primary text-warning pt-2 ps-2 pe-2  carousel-item">
+                                <img src="./images/rio de janeiro.jpg" class="card-img-top border border-primary rounded"
+                                    alt="Rio de Janeiro">
+                                <div class="card-body">
+                                    <h5 class="card-title">Rio de Janeiro - Brasil</h5>
+                                    <p class="card-text">História milenar, arquitetura imponente, legado
+                                        fascinante.</p>
+                                    <p class="card-text">R$: $.$$$,$$</p>
+                                    <a href="#" class="btn btn-dark">Saiba Mais</a>
+                                </div>
+                            </div>
+                            <div
+                                class="card border border-warning bg-primary text-warning pt-2 ps-2 pe-2  carousel-item">
+                                <img src="./images/coliseu.jpg" class="card-img-top border border-primary rounded" alt="coliseu">
+                                <div class="card-body">
+                                    <h5 class="card-title">Roma - Itália</h5>
+                                    <p class="card-text">História milenar, arquitetura imponente,
+                                        legado fascinante.</p>
+                                    <p class="card-text">R$: $.$$$,$$</p>
+                                    <a href="#" class="btn btn-dark">Saiba Mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#destinosDisponiveis"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#destinosDisponiveis"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-xxl">
+                    <div class="row text-center text-warning">
+                        <h5 class="p-3">Onde os seus sonhos encontram um refúgio de excelência!</h5>
+                        <p class="p-3">Seja transportado para um mundo de maravilhas e experiências inesquecíveis, onde
+                            cada momento é cuidadosamente planejado para proporcionar-lhe uma viagem perfeita. Dos
+                            destinos luxuosos às paisagens deslumbrantes, estamos prontos para criar memórias únicas que
+                            ficaram gravadas em seu coração.
+
+                            Desperte seus sentidos com nosso serviço impecável.
+                            Explore destinos paradisíacos e mergulhe em culturas fascinantes!
+
+                            Em Viajens.Recode, nosso compromisso é superar suas expectativas e transformar sua estadia
+                            em
+                            um capítulo vivido de suas aventuras. Venha nos visitar e descobrir o significado da
+                            verdadeira hospitalidade nas mais diversas culturas, pois para nós, sua satisfação é nossa
+                            maior recompensa.
+
+                            Seja bem-vindo ao seu destino dos sonhos. Seja bem-vindo ao Viajens.Recode.</p>
+                    </div>
+                    <div class="row justify-content-center text-center text-warning p-2">
+                        <div class="col-md-4">
+                            <div id="avaliações" class="carousel slide col-lg" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="card border border-warning bg-success text-warning pt-1 ps-1 pe-1 carousel-item active"
+                                        id="card">
+                                        <i class="bi bi-person card-img-top"></i>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Sofia Mendes</h5>
+                                            <p class="card-text"> "Viajens.Recode é simplesmente incrível! Serviço
+                                                atencioso, ótima experiência."</p>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card border border-warning bg-success text-warning pt-1 ps-1 pe-1  carousel-item"
+                                        id="card">
+                                        <i class="bi bi-person card-img-top"></i>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Gabriel Silva</h5>
+                                            <p class="card-text">"Experiência excepcional no Viajens.Recode! Equipe
+                                                amigável e acolhedora."</p>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card border border-warning bg-success text-warning pt-1 ps-1 pe-1  carousel-item"
+                                        id="card">
+                                        <i class="bi bi-person card-img-top"></i>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Isabela Oliveira</h5>
+                                            <p class="card-text">"Viajens.Recode superou expectativas! Design
+                                                impressionante e serviço excepcional."</p>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#avaliações"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#avaliações"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-xxl text-center text-warning p-3">
+                            <h5>Venha vivenciar momentos únicos e extraordinários no Viajens.Recode!</h5>
+                            <p>Onde cada detalhe é pensado para tornar sua viajem vivida. Não apenas nós acreditamos
+                                que oferecemos um serviço excepcional, mas nossos queridos clientes também vivenciaram
+                                suas experiências incríveis conosco!
+
+                                Confira o que alguns dos nossos clientes têm a dizer sobre suas estadias no
+                                Viajens.Recode!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center text-warning p-3">
+            <h1>Conheça nossas redes Sociais!</h1>
+            <p>EXPLORE O MUNDO 🌍 Planeje sua Viagem em Parcelas 🗺️ Pacotes de Viagem, Hospedagem e Destinos 🚀 Melhore
+                sua Experiência de Viagem</p>
+            <div class="row justify-content-between">
+                <div class="col">
+                </div>
+                <div class="col-1">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                </div>
+                <div class="col-1">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                </div>
+                <div class="col-1">
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Sobre Nós</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget turpis at leo ultrices
+                        scelerisque.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Destinos Populares</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Paris</a></li>
+                        <li><a href="#">Nova York</a></li>
+                        <li><a href="#">Tóquio</a></li>
+                        <li><a href="#">Rio de Janeiro</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contato</h5>
+                    <ul class="list-unstyled">
+                        <li>Email: info@viajens.recode.com</li>
+                        <li>Telefone: 0800 800 1234</li>
+                        <li>Endereço: Av. Principal, 123</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p>&copy; 2023 viajens.recode.com - Todos os direitos reservados</p>
+                <div class="social-icons">
+                    <a href="#" class="me-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="me-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="me-2"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

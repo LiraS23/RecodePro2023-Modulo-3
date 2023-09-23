@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+E:\RecodePro2023-Modulo-3\java\.metadata\.plugins\org.eclipse.jdt.core
+1696264553.index
+663236314.index
+3875341273.index
+1865797976.index
